@@ -8,6 +8,7 @@ app:
       - "/v1/auth/**"
       - "/webhook/**"
       - "/actuator/**"
+  
   rate-limit:
     method: fixed
     use-case:
