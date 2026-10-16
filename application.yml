@@ -32,6 +32,8 @@ spring:
         spring.json.value.default.type: java.util.Map
         spring.json.use.type.headers: false
         spring.json.trusted.packages: "*"
+    listener:
+      ack-mode: manual
 
 eureka:
   client:
